@@ -1,4 +1,5 @@
-from pymilvus import CollectionSchema, FieldSchema, DataType, Collection, connections
+from pymilvus import CollectionSchema, FieldSchema, DataType, Collection
+from pymilvus import connections
 
 connections.connect(
   alias = "default",
