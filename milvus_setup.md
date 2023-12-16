@@ -11,3 +11,5 @@
 ## Desktop Version of Attu: [Desktop Version Download](https://github.com/zilliztech/attu/releases)
 9. docker run -p 8000:3000 -e MILVUS_URL={milvus server IP}:19530 zilliz/attu:v2.3.1
 10. Open Browser and Visit: http://localhost:8000/#/connect
+
+# If none of the above works, Just Install the docker-compose.yaml file from this Repo and you should be good.
